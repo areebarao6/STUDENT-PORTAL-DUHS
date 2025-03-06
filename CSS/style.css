@@ -1,0 +1,208 @@
+body{
+    margin: 0%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    padding: 0;
+}
+.main-row{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap ;
+}
+.img-col{
+    background-image: url(dow-ho.jpg);
+    background-size: cover; 
+    background-position: center top; 
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    
+}
+.index{
+    z-index: 9;
+}
+.padding-all{
+    padding: 15px 40px 15px 40px;
+}
+
+.portal-box{
+    background-color: rgba(255, 255, 255, 0.4) ;
+    border-radius: 0 15px 15px 0;
+    padding: 15px 60px 15px 40px;
+    margin-left: -60px;
+    width: 372px;
+  
+
+}
+.portal-box h1{
+    margin-bottom: 5px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+
+}
+@media(max-width:1366px){
+    .portal-box h1{
+        margin-top:0;
+        font-size: 32px;
+        line-height: 38px;
+
+    }
+}
+@media(max-width:1200px){
+    .portal-box h1{
+        font-size: 28px;
+        line-height: 36px;
+
+    }
+}
+.portal-box h1 span{
+    display: block;
+    font-weight: normal;
+    font-size: 30px;
+}
+@media (max-width: 1366px) {
+    .portal-box h1 span {
+        font-size: 26px;
+    }
+}
+@media (max-width: 1200px) {
+    .portal-box h1 span {
+        font-size: 24px;
+    }
+}
+@media(max-width:1366px){
+    .portal-box{
+        width: 350px;
+        padding: 15px 50px 15px 35px;
+
+    }
+}
+@media(max-width:1200px){
+    .portal-box{
+        width: 310px;
+        padding: 13px 50px 13px 35px;
+
+    }
+}
+
+.copyRight{
+    position: relative;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.loginlogo{
+    width: 130px;
+    margin-top: 16px;
+
+}
+.end{
+    font-size: 15px;
+}
+
+.bg-color{
+    background: #F8FBFF;
+  }
+  .form-sign {
+    padding: 20px !important;
+    background: #ffffff;
+    box-shadow: 0px 14px 70px -20px #2B25251A;
+}
+
+
+a{
+    text-decoration: none;
+}
+.responsivelogo{
+    display: none;
+}
+@media (max-width: 992px) {
+    .responsivelogo.visible992 {
+        display: block;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 992px) {
+    .form-sign {
+        padding: 20px 28px;
+        box-shadow: 3px 4px 17px 1px rgb(0 0 0 / 48%);
+        -webkit-box-shadow: 0px 0px 12px -5px rgb(0 0 0 / 48%);
+        -moz-box-shadow: 3px 4px 17px 1px rgba(0, 0, 0, 0.48);
+        border-radius: 12px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 1366px) {
+    .h2{
+        margin-bottom: 2px;
+        font-size: 22px;
+    }
+    
+}
+@media (max-width: 1366px) {
+    .p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+ .p {
+    color: #72849a;
+    line-height: 1.8;
+}
+@media (max-width: 768px) {
+    .h2 {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+}
+@media (max-width: 768px) {
+    .p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+}
+label{
+    color: #53535f;
+    font-weight: 500;
+    font-size: 14px;
+}
+a{
+    
+    color: #53535f;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cnic-icon{
+    position: relative;
+}
+.input-icon{
+    position: absolute;
+    left: 15px;  
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+
+}
+.pwd-icon{
+    position: relative;
+}
+.pad-left{
+    padding-left: 40px;
+}
+.input-icon2{
+    position: absolute;
+    right: 15px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+
+}
